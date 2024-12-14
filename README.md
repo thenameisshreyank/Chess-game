@@ -1,2 +1,2 @@
 # Chess-game
-Chess game using fastapi and react js
+Chess game using fastapi(backend) and react js(frontend)
