@@ -1,0 +1,35 @@
+.chessboard {
+  
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+
+}
+
+.row {
+  display: flex;
+}
+
+.square { 
+  width: 2em;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.square:active {
+  filter: brightness(0.8);
+  background-color: blue;
+  color: aqua;
+}
+
+.square.black {
+  background-color: #b58863;
+}
+
+.square.white {
+  background-color: #f0d9b5;
+}
